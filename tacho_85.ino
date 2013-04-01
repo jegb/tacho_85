@@ -55,6 +55,7 @@ void setup()
   // we could handle with LCD 1x8 chars RPM00000
   lcd.print("Current RPM:"); // this remains static only refresh on second line
   delay(1000);
+  lcd.noBlink();
 }
 
 //Main Loop To Calculate RPM and Update LCD Display
